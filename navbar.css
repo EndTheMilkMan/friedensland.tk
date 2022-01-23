@@ -4,12 +4,23 @@
     align-items: center;
 }
 
+.banner {
+    animation: transitionIn 0.75s;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.5rem;
+}
+
 .nav-item {
     margin-left: 5rem;
 }
 
 .nav-link{
-    font-size: 2rem;
+    font-size: 100%;
     font-weight: 400;
     color: #fff;
 }
