@@ -17,6 +17,12 @@
 
 .nav-item {
     margin-left: 5rem;
+    
+}
+
+.nav-item:hover{
+    transform: scale(1.15);
+
 }
 
 .nav-link{
@@ -26,9 +32,8 @@
 }
 
 .nav-link:hover{
-    color: #d60bae;
+    color: #4f4f55;
     font-family: 'Nunito', sans-serif;
-	transition: 0.3s;
 }
 
 .nav-logo {
