@@ -1,0 +1,118 @@
+.panel-1 {
+    background-color: rgb(37, 37, 37);
+    height: 280px;
+  width: 250px;
+  margin-top: 200px;
+  margin-left: 25%;
+  color: #ffffff;
+  font-size: 29px;
+  font-weight: 600;
+  padding-left: 20px;
+  padding-top: 10px;
+  border-radius: 20px;
+  position: relative;
+  top: 0;
+  transition: top ease 0.5s;
+  }
+  
+  .panel-1:hover {
+      top: -20px;
+      
+  }
+
+  .panel-2 {
+    background-color: rgb(37, 37, 37);
+    height: 280px;
+    width: 250px;
+    margin-top: -290px;
+    margin-left: 70%;
+    color: #ffffff;
+    font-size: 29px;
+    font-weight: 600;
+    padding-left: 20px;
+    padding-top: 10px;
+    border-radius: 20px;
+    position: relative;
+    top: 0;
+    transition: top ease 0.5s;
+  }
+  
+  .panel-2:hover {
+      top: -20px;
+  }
+
+  .panel-3 {
+    background-color: rgb(37, 37, 37);
+    height: 280px;
+    width: 250px;
+    margin-top: 170px;
+    margin-left: 61%;
+    color: #ffffff;
+    font-size: 29px;
+    font-weight: 600;
+    padding-left: 20px;
+    padding-top: 10px;
+    border-radius: 20px;
+    position: relative;
+    top: 0;
+    transition: top ease 0.5s;
+  }
+  
+  .panel-3:hover {
+      top: -20px;
+  }
+  
+  .panelText {
+      margin-top: 10px;
+      
+  }
+
+  .laws-btn {
+    background-color: #2d07b6;
+      border: none;
+      color: white;
+      padding: 7px 15px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      border-radius: 4px;
+      align-items: center;
+      font-size: 16px;
+      font-weight: 700;
+      cursor: pointer;
+    position: relative;
+      transition: top ease 0.5s;
+    top: -20px;
+  }
+
+  .laws-btn:hover {
+    top: -30px;
+  }
+
+  @media (max-width: 1500px) {
+    .panel-1 {
+      margin-left: 24%;
+    }
+    .panel-2 {
+      margin-left: 42%;
+    }
+    .panel-3 {
+      margin-left: 60%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .panel-1 {
+      margin-left: 23%;
+      margin-top: 25%;
+    }
+    .panel-2 {
+      margin-left: 23%;
+      margin-top: 15%;
+    }
+    .panel-3 {
+      margin-left: 23%;
+      margin-top: 15%;
+    }
+  }
+  

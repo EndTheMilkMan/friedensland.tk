@@ -11,6 +11,17 @@ body {
     padding: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* Internet Explorer 10+ */
+  }
+  html::-webkit-scrollbar { /* WebKit */
+    width: 0;
+    height: 0;
+  }
+
 .banner{
     width: 100%;
     height: 100vh;
@@ -43,22 +54,29 @@ body {
       text-align: center;
   }
   
-  .status-btn {
-    background-color: #000;
-    border: none;
-    color: white;
-    padding: 7px 15px;
-    margin-bottom: 5px;
-    text-decoration: none;
-    display: inline-block;
-    border-radius: 4px;
-    font-size: 16px;
-    font-weight: 700;
-    cursor: pointer;
-    position: relative;
-    top: 0;
-    transition: top ease 0.5s;
-  }
+
+
+
+.standard-btn {
+  background-color: #000;
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  margin-bottom: 5px;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  position: relative;
+  top: 0;
+  transition: top ease 0.5s;
+}
+
+.standard-btn:hover {
+	top: -10px;
+}
   
   .status-btn:hover {
       top: -10px;
